@@ -1,0 +1,125 @@
+/* You can add global styles to this file, and also import other style files */
+@import "app/shared/grid";
+@import "app/shared/colors";
+
+html, body
+    font-family: "proxima-nova",sans-serif;
+    color: #444444;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #f2f2f2;
+    line-height: 1.5;
+
+input, textarea, button
+  font-family: inherit
+  font-size: 1em
+
+input:not([type=checkbox]):not([type=radio]), textarea
+  -webkit-appearance: none !important;
+  //box-shadow: none;
+
+*
+  outline: none;
+
+select::-ms-expand
+  display: none;
+
+select
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: -1px;
+  text-overflow: '';
+
+button
+  cursor: pointer;
+
+footer 
+    padding: 0.3em;
+    color: #fff;
+    clear: left;
+    text-align: left;
+    background-color: #303e45 !important;
+    z-index: 99999999 !important;
+
+.w-top 
+    top: 0;
+    padding: .5em;
+    z-index: 99999999 !important;
+
+.w-top
+    position: fixed;
+    width: 100%;
+    background-color: #fff !important;
+    border-color: #4d636f !important;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+
+.w-top:before 
+    content: "";
+    display: table;
+    clear: both;
+    
+.w3-header-aux
+    font-size: 14px;
+    font-family: initial;
+    letter-spacing: 0;
+    vertical-align: super;
+
+footer a
+  color: white !important;
+  text-decoration: none !important;
+
+.float-r  
+  float: right !important;
+
+.padding-l  
+  padding-left: .3em !important;
+
+.chip 
+    display: inline-block;
+    padding: 0 0 0 25px;
+    height: 50px;
+    color: #4d636f;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+
+
+.chip img 
+    float: right;
+    margin: 0 0 0 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+.nav-header
+    color: #4d636f;
+    font-size: 17px;
+    font-weight: 600;
+
+.nav-link:hover 
+    border-bottom-color: #ffcb34;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding-bottom: .4em;
+
+.cursor-pointer
+    cursor: pointer;
+
+a
+    color: #4d636f !important;
+    text-decoration: none !important;  
+
+.flex-container 
+    display: flex;
+
+.active-link
+    border-bottom-color: #ffcb34;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    padding-bottom: .4em;

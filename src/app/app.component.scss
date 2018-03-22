@@ -1,0 +1,35 @@
+.w-header {
+  padding-top: .1em;
+  font-size: 30px;
+  font-weight: 600;
+  color: #4d636f;
+  clear: left;
+  text-align: left;
+  font-family: cursive;
+  letter-spacing: 0.2em;
+}
+
+/** Media queries **/
+@media screen and (max-width: 720px) { 
+  .w-header {
+      padding-top: 0em;
+      font-size: 100%;
+      font-weight: initial;
+      color: #4d636f;
+      clear: left;
+      text-align: left;
+      font-family: cursive;
+      letter-spacing: 0.0em;
+  }
+}  
+
+.main-container{
+  padding-top: 160px;
+}
+
+@media only screen
+and (max-width: 720px) {
+  .main-container{
+    padding-top: 50px;
+  }
+}

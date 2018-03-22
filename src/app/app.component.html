@@ -1,0 +1,53 @@
+<div
+[ngStyle]="{'min-height': clientHeight + 'px'}">
+<div class="w-top">
+  <div class="container">
+    <div class="flex-container row">
+      <div style="margin-left: -2%; padding-top: .6em;">
+          <span><img src="/assets/logo.svg" alt="Person" width="45" height="44"></span>
+      </div>
+      <div class="col-5">
+        <div class="w-header"><span>Fulfil</span><span class="w3-header-aux">theWish</span> Store</div>
+      </div>
+      <div class="col-6">
+      <div class="chip float-r" style="margin-right: -2em;">
+        <img src="https://avatars3.githubusercontent.com/u/20468068?s=400&v=4" alt="Person" width="96" height="96"> surith nivas
+      </div>
+    </div>
+    </div>
+    <div class="flex-container row">
+      <div class="col-1.5 nav-header cursor-pointer">
+        <a routerLink="/home" class="nav-link" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
+          <i class="fa fa-home"></i> Home
+        </a>
+      </div>
+      <div class="col-1.5 nav-header cursor-pointer">
+        <a routerLink="/news" class="nav-link" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
+          <i class="fa fa-globe"></i> News
+        </a> 
+      </div>
+      <div class="col-1.5 nav-header cursor-pointer">
+        <a routerLink="/news" class="nav-link" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
+          <i class="fa fa-file-photo-o"></i> Gallery
+        </a>
+      </div>
+      <div class="col-2.5 nav-header cursor-pointer">
+      <a routerLink="/contact" class="nav-link" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
+        <i class="fa fa-user"></i> Contact-us
+      </a>
+    </div>
+      <div class="col-1"></div>
+      <div class="col-1"></div>
+      <div class="col-1"></div>
+      <div class="col-1"></div>
+      <div class="col-2">
+          <a href="mailto:surithnivas97@hotmail.com"><i class="fa fa-envelope float-r padding-l cursor-pointer" style="font-size:26px;"></i></a>
+          <a href="https://github.com/surithn" target="_blank"><i class="fa fa-github float-r cursor-pointer" style="font-size:27px;"></i></a>
+      </div>
+  </div>
+  </div>
+</div>
+<div class="main-container">
+<router-outlet></router-outlet>
+</div>
+</div>
