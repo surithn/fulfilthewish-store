@@ -2,6 +2,9 @@
 
 This is an example project to show how a wish-tree application would look like when shopping cart concept intrudes.
 
+## Technology:
+* Angular 5
+  
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
@@ -26,4 +29,9 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Further help
 
-To get more help [Surith Nivas](mailto:surithnivas97@hotmail.com)
+To get more help contact [Surith Nivas](mailto:surithnivas97@hotmail.com)
+
+## TODO
+* Create backend service using Spring Boot
+* Make transitions more fancy to quench your thirst
+* Complete Angular Karma test case, BDD..
